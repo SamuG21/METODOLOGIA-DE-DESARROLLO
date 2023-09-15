@@ -1,0 +1,8 @@
+public class Kata
+{
+  public static int Cats(int start, int finish)
+  {
+    var diff = finish - start;
+    return diff / 3 + diff % 3;
+  }
+}
